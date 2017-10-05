@@ -1,4 +1,7 @@
-body {	color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;background: url(../images/background.jpg) no-repeat center center fixed; 
+body {
+  color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;
+  /*background: url(../images/b1.png) no-repeat center center fixed;*/
+  background: url("https://geeglenews.com/ct-geeglenews/uploads/2017/04/light-green-background-27235.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,7 +27,7 @@ h4 i{margin-right: 0.5em;}
 
 p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
-.spacer{padding: 6em 0;}
+.spacer{padding: 2em 0;}
 
 .btn{border:none;border-radius: 0;padding: 1em 4em;background: rgba(0,0,0,0.5);text-transform: uppercase;}
 .btn:hover,.btn:active{color: #fff;}
@@ -33,9 +36,11 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .btn-primary{color: #fff;background:#00a9c6;width: 100%;outline: none;}
 .btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#1BC0DC;box-shadow: none;}
 
-.navbar-nav > li > a{font-size: 1em;line-height: 1.3em;color: #b3b3b3 !important;}
-.navbar-nav > li > a:hover{font-size: 1em;line-height: 1.3em;color: white !important;}
-.navbar-fixed-top {background: url(../images/background.jpg) no-repeat center center fixed; display: inline;}
+.navbar-nav > li > a{font-size: 1em;line-height: 1.3em;color: white !important;}
+.navbar-nav > li > a:hover{font-size: 1em;line-height: 1.3em;color: #b3b3b3 !important;}
+.navbar-fixed-top {
+  background-color: #192577;
+  display: inline;}
 .navbar-inverse{background: transparent;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{background: transparent;color: white !important;}
 
@@ -96,7 +101,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 @media (max-width: 1200px) {
 	body{font:300 13px/13px Roboto,Arial,Helvetica;}
 	.process ul li{margin:0 0.5em; }
-	
+
 	.grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
 	figure.effect-oscar figcaption{padding: 12%;}
 	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
@@ -110,10 +115,10 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.btn{padding: 1em 2em;}
 	.partners img{margin: 0 15px 25px 0;width: 157px;}
 	.process ul li{width: 9em;height: 9em;}
-	figure.effect-chico figcaption {padding: 2em;}	
+	figure.effect-chico figcaption {padding: 2em;}
 	figure.effect-oscar figcaption {padding: 20%;}
 	figure.effect-chico figcaption::before{top: 10px;right: 10px;bottom: 10px;left: 10px;}
-	.grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;}	
+	.grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;}
 }
 
 
@@ -127,7 +132,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
 	h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
-	#partners h2{padding: 0 1em;} 
+	#partners h2{padding: 0 1em;}
 	#schedule {padding-top: 5em;}
 
 	.partners{display: block;float: left;}
@@ -147,8 +152,22 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 }
 
 #semanaInf{color: white;}
-#edicao_anterior {margin: auto; width: 20%; border-radius: 50px; background: url(../images/background.jpg) no-repeat center center fixed; border:5px solid ; border-color: #a3c839;}
-#edicao_anterior:hover {margin: auto; width: 20%; border-radius: 50px; background: url(../images/background.jpg) no-repeat center center fixed;border:5px solid ; border-color: white;}
+.btn-custom-default {
+  margin: auto;
+  width: 20%;
+  border-radius: 50px;
+  background-color: rgb(60, 186, 84);
+  border:5px solid ;
+  border-color: #192577;
+}
+.btn-custom-default:hover {
+  margin: auto;
+  width: 20%;
+  border-radius: 50px;
+  background-color: rgb(25, 37, 119);
+  border:5px solid ;
+  border-color: white;
+}
 [name="inscricao"] {margin: auto; width: 40%; border-radius: 50px; background: url(../images/background.jpg) no-repeat center center fixed;}
 #contact h2{color: white;}
 #contact h1 a {color: white;}
@@ -156,8 +175,8 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 #contact h4 a {color: white;}
 #contact h4 a:hover {color: #b3e0ff}
 #logo {display: block;margin: auto; height: 70%; width: 70%;}
-#sabe_mais:hover{margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: white ;}
-#sabe_mais {margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: #a3c839;}
+/*#sabe_mais:hover{margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: white ;}
+#sabe_mais {margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: #192577;}*/
 #nieafeup_logo {width: 3%;height: 3%;}
 #home h4{text-align: center;}
 .custom_modal {width: 80%;}
