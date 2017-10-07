@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -34,7 +34,7 @@
 
             <div class="navbar-header">
 
-              <a class="navbar-brand font-ptsans" href="#home" id="semanaInf">Semana de Informática 2017</a>
+              <a class="navbar-brand font-ptsans-bold" href="#home" id="semanaInf">Semana de Informática 2017</a>
 
 
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,6 +50,7 @@
                  <li class="font-ptsans"><a href="#about" class="font-ptsans">Sobre</a></li>
                  <li ><a href="#events" class="font-ptsans">Eventos</a></li>
                  <li ><a href="#contact" class="font-ptsans">Contactos</a></li>
+                 <li class="navbar_last"><a href="http://ni.fe.up.pt/"><img src="images/niaefeup.png" alt="nieafeup_logo" id="nieafeup_logo_navbar"></a></li>
               </ul>
             </div>
 
@@ -61,18 +62,18 @@
 <div id="home" class="spacer">
    <img src="images/logo.png" alt="logo" id="logo" align="middle">
    <br><br><br><br><br>
-   <h4 class="font-ptsans" data-gallery data-toggle="modal" data-target="#saberMaisModal"><button class="btn btn-primary btn-custom-default font-ptsans" id="sabe_mais">Sabe mais</button></h4>
+   <h4 class="font-ptsans" data-gallery data-toggle="modal" data-target="#saberMaisModal"><button class="btn btn-primary btn-custom-default font-ptsans"><span class="font-ptsans">Calendário</span></button></h4>
 </div>
 
 <div id="about" class="spacer">
-  <h2 class="text-center  wowload fadeInUp font-ptsans">Sobre a Semana de Informática</h2>
+  <h2 class="text-center wowload fadeInUp font-ptsans">Sobre a Semana de Informática</h2>
 
   <h4 class="text-center font-ptsans">
       Está de volta a semana de Informática! <br/>
       Estás pronto para iniciar contacto com o meio empresarial? <br/>
       Queres expandir os teus conhecimentos com workshops inovadores? <br/>
       Queres ouvir o testemunho de quem já esteve onde estás? <br/>
-      Então junta-te a nós de XX de YYY a ZZ de MMM para uma semana sem igual!<br/><br/><br/><br/>
+      Então junta-te a nós de 30 de Outubro a 3 de Novembro para uma semana sem igual!<br/><br/><br/><br/>
 
   <a href="https://web.fe.up.pt/~ei12030/Sem_Inf_15/"><button class="btn btn-primary btn-custom-default font-ptsans" id="edicao_2015">Edição 2015</button></a>
   <a href="https://niaefeup.github.io/INF-WEEK2016/"><button class="btn btn-primary btn-custom-default font-ptsans" id="edicao_2016">Edição 2016</button></a>
@@ -84,29 +85,29 @@
   <br><br>
   <div class="row">
 
-    <div class="col-md-4">
+    <div class="col-md-4 hover-clickable">
       <img src="images/portfolio/mindera.jpg" alt="mindera" data-gallery data-toggle="modal" data-target="#minderaModal">
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 hover-clickable">
       <img src="images/portfolio/bit.jpg" alt="bit"data-gallery data-toggle="modal" data-target="#bitModal">
     </div>
 
-     <div class="col-md-4">
+     <div class="col-md-4 hover-clickable">
       <img src="images/portfolio/niaefeup.jpg" alt="niaefeup" data-gallery data-toggle="modal" data-target="#niaefeupModal">
     </div>
   </div>
   <div class="row">
 
-    <div class="col-md-4">
+    <div class="col-md-4 hover-clickable">
       <img src="images/portfolio/1.jpg" alt="1"data-gallery data-toggle="modal" data-target="#palestra1Modal">
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 hover-clickable">
       <img src="images/portfolio/ieee.jpg" alt="ieee"data-gallery data-toggle="modal" data-target="#ieeeModal">
     </div>
 
-     <div class="col-md-4">
+     <div class="col-md-4 hover-clickable">
       <img src="images/portfolio/1.jpg" alt="2"data-gallery data-toggle="modal" data-target="#palestra2Modal">
     </div>
   </div>
@@ -253,7 +254,7 @@
         <h4 class="modal-title text-center font-ptsans">Semana de Informática 2016
         <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="overflow-x:auto;">
        <table class="table table-bordered custom-table font-ptsans">
         <thead>
           <tr>
